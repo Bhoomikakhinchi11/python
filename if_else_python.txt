@@ -1,0 +1,171 @@
+1.
+whether=int(input("enter the value::"))
+if(whether%2==0):
+    print("even number")
+elif(whether%2!=0):
+    print("odd number")   
+else:
+    print("input is not matched")
+
+2.
+a=int(input("enter the a:"))
+b=int(input("enter the b:"))
+c=int(input("enter the c:"))
+if(a>b and a>c):
+    print("a is max")
+elif(b>a and b>c):
+    print("b is max")
+elif(c>a and c>b):
+    print("c is max")
+else:
+    print("input is not matched")
+
+3.
+leap=int(input("enter the year:"))
+if(leap%400==0):
+    print("this year is leap year")
+elif(leap%100==0):
+    print("this year is not a leap year")
+elif(leap%4==0):
+    print("this year is leap year")
+else:
+    print("not leap year")
+
+4.
+per=int(input("enter the value"))
+if(per>=90):
+    print("grade A")
+elif(per>=80):
+    print("grade B")
+elif(per>=70):
+    print("grade C")
+elif(per>=60):
+    print("grade D")
+elif(per<60):
+    print("grade F")
+else:
+    print("input is not matched")
+
+
+5.
+a=input("enter the character:")
+if(a=='a' or a=='e' or a=='i' or a=='o' or a=='u'):
+    print("vowel")
+else:
+    print("consonant")
+
+6.
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=input("enter the number")
+if(c=='+'):
+    d=a+b
+elif(c=='-'):
+    d=a-b
+elif(c=='*'):
+    d=a*b
+elif(c=='/'):
+    d=a/b
+print("enter the value",d)
+
+7.
+num=int(input("enter the value"))
+if(num>0):
+    print("positive")
+elif(num<0):
+    print("negative")
+elif(num==0):
+    print("zero")
+else:
+    print("input is not matched")
+
+8.
+username=input("enter the name")
+password=input("enter the value")
+if(username=='admin' and password=='1234'):
+    print("login Successful")
+else:
+    print("login failed")
+
+9.
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+if(a+b>c and b+c>b and c+a>a):
+    print("it is a triangle")
+else:
+    print("it is not a triangle")
+
+10.
+weight=float(input("enter the weight"))
+height=float(input("enter the height"))
+bmi=weight / (height ** 2)
+if(bmi < 18.5):
+    print("Underweight")
+elif(18.5 <= bmi < 24.9):
+    print("Normal weight")
+elif(25 <= bmi < 29.9):
+    print("Overweight")
+elif(bmi >= 30):
+    print("Obesity")
+
+
+11.
+price=int(input("enter the price"))
+if(price>1000):
+    product_after_discount=price-price*10/100
+    print("price is",product_after_discount)
+elif(price>500):
+     product_after_discount=price-price*5/100
+     print("price is",product_after_discount)
+else:
+     product_after_discount=price
+     print("price is",product_after_discount)
+
+
+12.
+month = input("Enter the name of a month: ").lower()
+if month=="february":
+    print("february has 29 daya")
+elif month in ["april", "june", "september", "november"]:
+    print(f"{month.capitalize()} has 30 days.")
+elif month in ["january", "march", "may", "july", "august", "october", "december"]:
+    print(f"{month.capitalize()} has 31 days.")
+else:
+    print("Invalid month.")
+
+14.
+age=int(input("enter your age: "))
+if(0<age<1):
+  print("infact")
+elif(2<age<4):
+  print("toddler")
+elif(4<age<13):
+  print("child")
+elif(13<age<19):
+  print("teenager")
+elif(19<age<60):
+  print("adult")
+else:
+  print("senior")
+
+15.
+a=int(input("enter number(1-7)"))
+if(a==1):
+    print("monday")
+elif(a==2):
+    print("tuesday")
+elif(a==3):
+    print("wednesday")
+elif(a==4):
+    print("thursday")
+elif(a==5):
+    print("friday")
+elif(a==6):
+    print("saturday")
+elif(a==7):
+    print("sunday")
+else:
+  print("invalid input")
+
+
